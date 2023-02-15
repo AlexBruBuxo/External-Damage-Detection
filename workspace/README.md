@@ -4,7 +4,7 @@
 
 ### Run model_main_tf2.py:
 
-1) cd into 'Tensorflow/workspace' directory:
+1) cd into 'workspace/' directory:
 
 2) optional: select desired GPUs, if nothing is set, it will use all available GPUs
 ```
@@ -55,7 +55,7 @@ ___
 
 ### Run exporter_main_v2.py:  
 
-1) From 'Tensorflow/workspace' directory:
+1) From 'workspace/' directory:
 
 2) Run the script:
 ```
@@ -70,6 +70,7 @@ python exporter_main_v2.py \
 <path to your config file> is a path to the config file for the model you want to export. Should be a config file from ./models/<folder with the model of your choice>/v1/ 
 
 <path to a directory with your trained model> is a path to a directory where model checkpoints were placed during training. Should also be the following: ./models/<folder with the model of your choice>/v1/  
+
 <path to a directory where to export a model> is a path where an exported model will be saved. Should be: ./exported_models/<folder with the model of your choice> 
 ```
 
@@ -77,7 +78,7 @@ ___
 
 ### Evaluation
 
-1) cd into 'Tensorflow/workspace' directory:
+1) cd into 'workspace/' directory:
 
 2) optional: select desired GPUs, if nothing is set, it will use all available GPUs
 ```
