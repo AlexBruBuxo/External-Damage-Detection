@@ -1,0 +1,10 @@
+item {
+    name: "damage",
+    id: 1,
+    display_name: "damage"
+}
+item {
+    name: "dirt",
+    id: 2,
+    display_name: "dirt"
+}
